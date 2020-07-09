@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*
+
+Custom CSS
+
+*/
+
+/* NavBar */
+.navBar {
+    background-color: white;
+    border-bottom:1px solid #ECECEC;
+    display: flex;
+    justify-content: between;
+}
+
+.image {
+    width: 60px;
+    margin-right: 20px;
+}
+
+/* Main Section */
+.mainContainer {
+    min-height: 100vh;
+}
+
+.mainRow {
+    height: 100vh;
+}
+
+.uploadDiv {
+     background-color: #F2F2F2;
+     height: 50vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.resultsDiv {
+    background-color: #D0D0D0;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainCol {
+    background-color: #D0D0D0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+/* Upload Section */
+.previewImage {
+    height:40vh;
+}
+
+.previewBackground {
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 3vh;
+}
+
+/* Side Column */
+.sideCol {
+    padding-left: 0px;
+}
+
+.imageNetButton {
+    height:25vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+.imageNetButton:hover {
+    height:25vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background: #81A2FE;
+    color: white;
+}
+
+
+div.fileinputs {
+	position: relative;
+}
+
+div.fakefile {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+}
+
+input.file {
+	position: relative;
+	text-align: right;
+	-moz-opacity:0 ;
+	filter:alpha(opacity: 0);
+	opacity: 0;
+	z-index: 2;
+}
+
+.resnetTable {
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 3vh;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.imageNetTables {
+    display: flex;
+    justify-content: center;
+}
+
+.size {
+    position: fixed;
+    top: calc(100vh*0.2) !important;
+    left: calc(100vw*(5/8) - 400px) !important;
+}

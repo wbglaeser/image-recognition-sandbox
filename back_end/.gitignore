@@ -1,0 +1,14 @@
+# Dont push pycache objects
+__pycache__
+
+# Dont push idea folder
+.idea
+
+# Dont push research folder
+research
+
+# Dont push egg files
+*.egg-info
+
+# Dont push pretrained models
+pytorch_objectdetecttrack
